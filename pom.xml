@@ -19,6 +19,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
+		
 		<!-- @ApacheCommons -->
 		<apache.commons.codec>1.10</apache.commons.codec>
 		<apahce.commons.lang3>3.4</apahce.commons.lang3>
@@ -38,6 +39,9 @@
 		<org.joda.convert>1.8.1</org.joda.convert>
 		<org.joda.money>0.10.0</org.joda.money>
 		<javax.ws.rs>2.0.1</javax.ws.rs>
+		
+		<!-- Shiro Security Framework -->
+		<shiro.version>1.2.4</shiro.version>
 	</properties>
 
 	<dependencies>
@@ -183,6 +187,44 @@
 			<groupId>javax.ws.rs</groupId>
 			<artifactId>javax.ws.rs-api</artifactId>
 			<version>${javax.ws.rs}</version>
+		</dependency>
+		
+		<!-- Shiro Security Framework -->
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-core</artifactId>
+			<version>${shiro.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-web</artifactId>
+			<version>${shiro.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-ehcache</artifactId>
+			<version>${shiro.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-spring</artifactId>
+			<version>${shiro.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-cas</artifactId>
+			<version>${shiro.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>commons-logging</groupId>
+					<artifactId>commons-logging</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-quartz</artifactId>
+			<version>${shiro.version}</version>
 		</dependency>
 	</dependencies>
 	
