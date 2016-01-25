@@ -1,6 +1,6 @@
 ## hontee-boot
 
-Í¨¹ıMaven¹ÜÀíJava³£ÓÃ¹¤¾ß°ü£¬Ìá¹©×îĞÂ×îÈ«¡¢ÊµÓÃÓĞĞ§¡¢Ê¹ÓÃÎÄµµ¡¢×Ô¶¨ÒåÀ©Õ¹µÈÏà¹ØÄÚÈİ¡£Å¬Á¦ÈÃ¿ª·¢±äµÃ¸ßĞ§¿ì½İ£¬¼¯³É¸ü·½±ã¡£
+é€šè¿‡Mavenç®¡ç†Javaå¸¸ç”¨å·¥å…·åŒ…ï¼Œæä¾›æœ€æ–°æœ€å…¨ã€å®ç”¨æœ‰æ•ˆã€ä½¿ç”¨æ–‡æ¡£ã€è‡ªå®šä¹‰æ‰©å±•ç­‰ç›¸å…³å†…å®¹ã€‚åŠªåŠ›è®©å¼€å‘å˜å¾—é«˜æ•ˆå¿«æ·ï¼Œé›†æˆæ›´æ–¹ä¾¿ã€‚
 
 ```
 <dependency>
@@ -18,6 +18,7 @@
 - [Google Guava](https://github.com/google/guava/wiki)
 - [Joda](http://www.joda.org/)
 - [Javax RESTful Services](https://jax-rs-spec.java.net/)
+- [Apache Shiro](http://shiro.apache.org/)
 
 ## Packaging List
 
