@@ -18,6 +18,7 @@
 - [Google Guava](https://github.com/google/guava/wiki)
 - [Joda](http://www.joda.org/)
 - [Javax RESTful Services](https://jax-rs-spec.java.net/)
+- [Jersey - RESTful Web Services.](https://jersey.java.net/)
 - [Apache Shiro](http://shiro.apache.org/)
 
 ## Packaging List
@@ -45,4 +46,14 @@
 - joda-time-2.9.1
 - joda-convert-1.8.1
 - joda-money-0.10.0
-- javax.ws.rs-api-2.0.1
+- jersey-common-2.22.1
+	- javax.ws.rs-api-2.0.1
+	- javax.annotation-api-1.2
+	- jersey-guava-2.22.1
+	- hk2-api-2.4.0-b31
+	- hk2-utils-2.4.0-b31
+	- aopalliance-repackaged-2.4.0-b31
+	- javax.inject-2.4.0-b31
+	- hk2-locator-2.4.0-b31
+	- javassist-3.18.1-GA
+	- osgi-resource-locator-1.0.1
