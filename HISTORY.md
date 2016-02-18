@@ -4,3 +4,4 @@
 - [2016-01-25] 集成Spring Boot, 统一Spring的管理
 - [2016-01-25] 集成Shiro安全框架，1.2.4版本
 - [2016-01-26] 集成Jersey RESTful API, 基于javax.ws.rs的实现
+- [2016-02-18] 删除工具类及src目录
