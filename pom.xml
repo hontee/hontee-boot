@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.hontee.spring</groupId>
-	<artifactId>boot</artifactId>
+	<groupId>com.ikyer.boot</groupId>
+	<artifactId>spring</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
-	<name>hontee-boot</name>
+	<name>ikyer-boot</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -57,7 +57,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
