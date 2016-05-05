@@ -1,11 +1,11 @@
-## hontee-boot
+## ikyer-boot
 
 通过Maven管理Java常用工具包，提供最新最全、实用有效、使用文档、自定义扩展等相关内容。努力让开发变得高效快捷，集成更方便。
 
 ```
 <dependency>
-	<groupId>com.hontee.spring</groupId>
-	<artifactId>boot</artifactId>
+	<groupId>com.ikyer.boot</groupId>
+	<artifactId>spring</artifactId>
 	<version>1.0.0</version>
 </dependency>
 ```
